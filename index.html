@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--css-->
+    <link rel="stylesheet" href="./stylesheets/main.css">
+    <!--logo-->
+    <link rel="icon" href="./media/icon.png">
+    <title>Guitar Makers</title>
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Guitar Makers</a>
+            <!--Hamburger-->
+            <buttom class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+
+            </buttom>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="./index.html" class="nav-link">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./pages/catalogo.html" class="nav-link">Catálogo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./pages/custom-shop.html" class="nav-link">Custom Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./pages/permuta.html" class="nav-link">Permuta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./pages/soporte.html" class="nav-link">Soporte</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Banner con h1-->
+    <header>
+        <section class="bg-dark text-light p-5 p-lg-4 text-center">
+            <div class="container">
+                <div class="s-flex">
+                    <div>
+                        <h1>Vende tu instrumento o intercambialo por otro de tu interés</h1>
+                        <p class="d-none d-md-block fs-6 text my-4">Nos dedicamos a encontrar instrumentos de alto nivel coleccionable ó de una rareza elevada y<span class="text-warning"> ofrecertelo a un precio competidor ante los nuevos instrumentos.</span></p>
+                        <p class="d-none d-md-block fs-6 text my-2">También, gracias a nuestro equipo de luthiers buscamos<span class="text-danger"> crear un instrumento que se adecúe perfectamente a tus manos.</span> </p>
+                    </div>
+                    <img src="./media/banner.jpg" alt="banner guitarra" class="w-75">
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <!--Main con links a sitios/simil nav.-->
+    <main>
+        <section class="p-5">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-md">
+                        <img class="w-100 d-none d-md-block" src="./media/guitars.jpg" alt="guitarras">
+                    </div>
+                    <div class="col-md p-5">
+                        <h2>Catálogo</h2>
+                        <p class="lead">Encontrá el instrumento de tus sueños</p>
+                        <p class="d-none d-md-block">Explorá dentro de nuestro catalogo de instrumentos que tenemos disponibles para la venta ó la permuta</p>
+                        <a href="./pages/catalogo.html" class="btn btn-dark mt-3">Catálogo</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="p-5 bg bg-dark text-light">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-md p-5">
+                        <h2>Custom Shop</h2>
+                        <p class="lead">Te ponemos en contacto con un luthier</p>
+                        <p class="d-none d-md-block">Contactate con un profesional del area de la creacion de instrumento para que juntos puedan diseñar uno que se ajuste en detalle a tus deseos</p>
+                        <a href="./pages/custom-shop.html" class="btn btn-light mt-3">Custom Shop</a>
+                    </div>
+                    <div class="col-md">
+                        <img class="w-100 d-none d-md-block" src="./media/custom.jpg" alt="luthier">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="p-5">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-md">
+                        <img class="w-75 d-none d-md-block" src="./media/permuta.jpg" alt="intercambio">
+                    </div>
+                    <div class="col-md p-5">
+                        <h2>Permuta</h2>
+                        <p class="lead">Intercambiá o tasá tu instrumento</p>
+                        <p class="d-none d-md-block">Dirigite a nuestra sucursal más cercana e intercambia tu instrumento por alguno dentro del catálogo ó simplemente para tasarlo, ya sea para venderlo a nosotros o a terceros.</p>
+                        <a href="./pages/permuta.html" class="btn btn-dark mt-3">Permuta</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="p-5 bg-dark text-light">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-md p-5">
+                        <h2>Soporte</h2>
+                        <p class="lead">Si hubo algun problema, contactate</p>
+                        <p class="d-none d-md-block">Si hubo algun problema durante la venta, el envío del instrumento ó hay algún cambio de desición contactate con soporte para que podamos brindarte asistencia</p>
+                        <a href="./pages/soporte.html" class="btn btn-light mt-3">Soporte</a>
+                    </div>
+                    <div class="col-md">
+                        <img class="w-75 d-none d-md-block" src="./media/support.png" alt="soporte">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--footer-->
+
+    <footer>
+        <div>
+            <a href="https://web.whatsapp.com/" target="_blank"><img class="wpp" src="./media/wpp.png" alt="whatsapp"></a>
+        </div>
+        <div>
+            <ul>
+                <li><a href="index.html">Guitar Makers</a></li>
+                <li><a href="https://www.instagram.com/" target="_blank"><img class="ui" src="./media/instagram.png" alt="instagram"></a></li>
+                <li><a href="https://www.facebook.com/" target="_blank"><img class="ui" src="./media/facebook.png" alt="facebook"></a></li>
+                <li><a href="./index.html">¿Quienes somos?</a></li>
+            </ul>
+        </div>
+    </footer>
+    
+    <!--bootstrap js-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

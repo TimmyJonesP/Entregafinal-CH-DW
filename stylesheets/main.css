@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+footer{
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity));
+    padding: 1rem 0rem;
+}
+footer div a{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+footer ul{
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
+    list-style-type: none;
+    padding: 1rem 0rem;
+}
+
+footer ul li{
+    font-size: 12px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding: 6px 0px;
+}
+.ui{
+    width: 24px;
+}
+
+.subt{
+    font-weight: bolder;
+    text-align: center;
+    padding: 1rem;
+}
+.flexbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tipoa{
+    padding: 1rem 0rem;
+}
+
+.wpp{
+    width: 24px;
+    position: fixed;
+    right: 2rem;
+    bottom: 3rem;
+    animation-name: wpp;
+    animation-iteration-count: initial;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+    animation-delay: 0s;
+}
+
+@keyframes wpp {
+    0%{
+        transform:translateY(2.5rem);
+        width: 0px;
+    }
+    25%{
+        width: 10px;
+        transform: translateX(3rem);
+    }
+    50%{
+        width: 14px ;
+        transform: translateX(-3rem);
+    }
+    75%{
+        width: 20px;
+        transform: scale(1.7);
+    }
+    100%{
+        transform: scale(1);
+        width: 24px;
+    }
+}
+@media screen and (min-width:768px){
+    footer ul{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .ui{
+        width: 36px;
+    }
+    .flexbox{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .tipoa{
+        padding: 2rem;
+    }
+    .wpp{
+        width: 36px;
+        position: fixed;
+        right: 1rem;
+        bottom: 3rem;
+        animation-name: wpp;
+        animation-iteration-count: initial;
+        animation-timing-function: ease-in-out;
+        animation-duration: 3s;
+        animation-delay: 0s;
+    }
+        @keyframes wpp  {
+            0%{
+                transform:translateY(2.5rem);
+                width: 0px;
+                
+            }
+            25%{
+                width: 15px;
+                
+            }
+            50%{
+                transform: rotate(360deg);
+                width: 20px;
+        
+            }
+            75%{
+                transform: rotate(360deg);
+                width: 24px;
+                
+            }
+            100%{
+                width: 36px;
+                
+            }
+        }
+    }
+
+@media screen and (min-width:1024px) {
+    .tipoa{
+        padding: 2rem 6rem;
+    }
+    
+}
+
+
+.btn:hover{
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.2);
+    color: #ffffff;
+    background-color: rgb(71, 236, 0);
+}
+.col-md img:hover{
+    transition: all 0.5s ease-in-out ;
+    transform: scale(1.2);
+    border-radius: 5%;
+}
+
+.card:hover{
+    transition: all 0.7s ease-in-out;
+    transform: scale(1.2);
+}
