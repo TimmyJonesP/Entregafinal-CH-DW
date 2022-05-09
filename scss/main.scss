@@ -1,0 +1,29 @@
+/* Global*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* Carpetas */
+
+@import "footer";
+@import "flex";
+@import "grid";
+@import "keyf";
+@import "mq-tab";
+@import "mq-lp";
+@import "hov";
+
+/* Variable */
+
+
+$pad: 1rem;
+
+.subt{
+    font-weight: bolder;
+    text-align: center;
+    padding: $pad;
+}

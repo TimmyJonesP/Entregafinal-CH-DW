@@ -1,0 +1,41 @@
+footer{
+    --bs-bg-opacity: 1;
+    background-color: black;
+    padding: 1rem 0rem;
+    div a{
+        list-style-type: none;
+        text-decoration: none;
+        color: white;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        min-width: 100%;
+        list-style-type: none;
+        padding: 1rem 0rem;
+    }
+        
+        li{
+            font-size: 12px;
+            list-style-type: none;
+            justify-content: center;
+            align-content: center;
+            text-align: center;
+            padding: 6px 0px;
+    }
+}
+.ui{
+    width: 24px;
+    animation: ui 10s ease-in-out 0s infinite;
+}
+.wpp{
+    width: 24px;
+    position: fixed;
+    right: 2rem;
+    bottom: 3rem;
+    animation-name: wpp;
+    animation-iteration-count: initial;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+    animation-delay: 0s;
+}

@@ -1,0 +1,16 @@
+.btn:hover{
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.2);
+    color: #ffffff;
+    background-color: rgb(71, 236, 0);
+}
+.col-md img:hover{
+    transition: all 0.5s ease-in-out ;
+    transform: scale(1.2);
+    border-radius: 5%;
+}
+
+.card:hover{
+    transition: all 0.7s ease-in-out;
+    transform: scale(1.2);
+}
