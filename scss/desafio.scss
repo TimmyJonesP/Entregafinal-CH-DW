@@ -1,0 +1,50 @@
+$padd:2rem;
+/* MIXIN */
+
+@mixin size ($alto, $ancho, $pad, $margin) {
+    height: $alto;
+    width: $ancho;
+    padding: $pad;
+    margin:$margin;
+}
+/* MAP*/
+$redes:(
+    twitter: #55acee,
+    facebook: #3a5795,
+    instagram: #C25E30,
+    youtube: red
+);
+
+@each $red,$color in $redes {
+    .red-#{$red}{
+        @include size(75%, 75%, 1rem ,1rem);
+        background-color: $color;
+        text-align: center;
+        list-style-type: none;
+        border-radius: 10%;
+    }
+}
+
+.desafio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    ul{
+        padding: 0px;
+        margin:$padd;
+
+        li{
+            a{
+                text-decoration: none;
+                color: black;
+            }
+        }}}
+
+/* EXTEND */
+.desafio{
+    h2{
+        @extend .card-f;
+        font-size: 50px;
+    }
+}

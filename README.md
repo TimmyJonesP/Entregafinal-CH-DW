@@ -1,5 +1,4 @@
 # Pre-entrega-2
-Moví todo el CSS puro al SASS y lo dividí en carpeta con llamadas en el main.scss, me quedó una clase que no valía la pena abrir una carpeta para ella y le implementé una variable en el padding. con "$pad: 1rem;"
-aplicado también el git ignore para no tirar el push con "node_modules"
-Se puede ver el nesting en el archivo footer, dentro de la carpeta "scss" = scss/footer.scss
+Agregué los Links de meta de "Keywords" y "descritpion en todos los html. Ya tenía los Favicon y demás de lo que respecta al SEO.
+Agregué una section en el index donde se encuentra todo lo referido a la clase de SASS II, Está separado en un archivo de SASS que se llama "desafio.scss", le agregué las redes con map, el h2 con un extend, y un mixin que edita los componentes del map dandole altura, ancho, margenes y padding.
 
