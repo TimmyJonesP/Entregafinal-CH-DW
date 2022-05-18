@@ -1,0 +1,9 @@
+$headers: (title, #38405F) (cat, #59546C) (cus, #8B939C) (sop, #FF0035);
+
+@each $tit,$color in $headers {
+    .h-#{$tit}{
+        color: $color;
+        font-size: $padd * 14;
+        margin: $padd;
+    }
+}

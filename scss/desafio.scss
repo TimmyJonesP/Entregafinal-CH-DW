@@ -1,4 +1,4 @@
-$padd:2rem;
+$padd:3px;
 /* MIXIN */
 
 @mixin size ($alto, $ancho, $pad, $margin) {
@@ -8,20 +8,19 @@ $padd:2rem;
     margin:$margin;
 }
 /* MAP*/
-$redes:(
-    twitter: #55acee,
-    facebook: #3a5795,
-    instagram: #C25E30,
-    youtube: red
+$fot:(
+    gm: #df8518,
+    quien: #3b5998
 );
 
-@each $red,$color in $redes {
-    .red-#{$red}{
-        @include size(75%, 75%, 1rem ,1rem);
+@each $txt,$color in $fot {
+    .foot-#{$txt}{
+        @include size(25%, 25%, 1rem ,3px);
         background-color: $color;
-        text-align: center;
-        list-style-type: none;
-        border-radius: 10%;
+        box-shadow: 0px 3px 10px rgba(255, 255, 255, 0.3);
+        font-size: 12px;
+        border-radius: $padd*2; 
+        padding: $padd*2;
     }
 }
 

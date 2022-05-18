@@ -6,6 +6,66 @@
   font-family: 'Rubik', sans-serif; }
 
 /* Carpetas */
+/* MIXIN */
+/* MAP*/
+.foot-gm {
+  height: 25%;
+  width: 25%;
+  padding: 1rem;
+  margin: 3px;
+  background-color: #df8518;
+  box-shadow: 0px 3px 10px rgba(255, 255, 255, 0.3);
+  font-size: 12px;
+  border-radius: 6px;
+  padding: 6px; }
+
+.foot-quien {
+  height: 25%;
+  width: 25%;
+  padding: 1rem;
+  margin: 3px;
+  background-color: #3b5998;
+  box-shadow: 0px 3px 10px rgba(255, 255, 255, 0.3);
+  font-size: 12px;
+  border-radius: 6px;
+  padding: 6px; }
+
+.desafio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .desafio ul {
+    padding: 0px;
+    margin: 3px; }
+    .desafio ul li a {
+      text-decoration: none;
+      color: black; }
+
+/* EXTEND */
+.desafio h2 {
+  font-size: 50px; }
+
+.h-title {
+  color: #38405F;
+  font-size: 42px;
+  margin: 3px; }
+
+.h-cat {
+  color: #59546C;
+  font-size: 42px;
+  margin: 3px; }
+
+.h-cus {
+  color: #8B939C;
+  font-size: 42px;
+  margin: 3px; }
+
+.h-sop {
+  color: #FF0035;
+  font-size: 42px;
+  margin: 3px; }
+
 footer {
   --bs-bg-opacity: 1;
   background-color: black;
@@ -188,64 +248,6 @@ footer {
 .card:hover {
   transition: all 0.7s ease-in-out;
   transform: scale(1.2); }
-
-/* MIXIN */
-/* MAP*/
-.red-twitter {
-  height: 75%;
-  width: 75%;
-  padding: 1rem;
-  margin: 1rem;
-  background-color: #55acee;
-  text-align: center;
-  list-style-type: none;
-  border-radius: 10%; }
-
-.red-facebook {
-  height: 75%;
-  width: 75%;
-  padding: 1rem;
-  margin: 1rem;
-  background-color: #3a5795;
-  text-align: center;
-  list-style-type: none;
-  border-radius: 10%; }
-
-.red-instagram {
-  height: 75%;
-  width: 75%;
-  padding: 1rem;
-  margin: 1rem;
-  background-color: #C25E30;
-  text-align: center;
-  list-style-type: none;
-  border-radius: 10%; }
-
-.red-youtube {
-  height: 75%;
-  width: 75%;
-  padding: 1rem;
-  margin: 1rem;
-  background-color: red;
-  text-align: center;
-  list-style-type: none;
-  border-radius: 10%; }
-
-.desafio {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column; }
-  .desafio ul {
-    padding: 0px;
-    margin: 2rem; }
-    .desafio ul li a {
-      text-decoration: none;
-      color: black; }
-
-/* EXTEND */
-.desafio h2 {
-  font-size: 50px; }
 
 /* Variable */
 .subt {
