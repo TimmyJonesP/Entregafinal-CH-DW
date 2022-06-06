@@ -10,7 +10,7 @@ No cambié todo el proyecto como tenía planeado ya que intenté, pero lo que es
 Intenté cambiar la paleta de BS, pero conllevaba traer todos los directorios del mismo y me hacía la página muy lenta por lo que descarté cambiarlos desde las variables teniendolo local.
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ENTREGA///
-Agregué los background-colour que me dijo Lucho (Mi tutor) en los Forms para que no quede tan llenas de blanco las páginas, tanto del custom-shop como del soporte.///
+Agregué los background-color que me dijo Lucho (Mi tutor) en los Forms para que no quede tan llenas de blanco las páginas, tanto del custom-shop como del soporte.///
 Hice lo que pude para centrar lo máximo posible el iframe de "Permuta".
 
 
