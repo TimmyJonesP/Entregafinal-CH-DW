@@ -69,7 +69,8 @@
 footer {
   --bs-bg-opacity: 1;
   background-color: black;
-  padding: 1rem 0rem; }
+  padding: 1rem 0rem;
+  bottom: 0px; }
   footer div a {
     list-style-type: none;
     text-decoration: none;
@@ -248,6 +249,12 @@ footer {
 .card:hover {
   transition: all 0.7s ease-in-out;
   transform: scale(1.2); }
+
+.form {
+  background-color: rgba(173, 173, 173, 0.268);
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 0.5em; }
 
 /* Variable */
 .subt {
